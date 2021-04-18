@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition_rel_match">
+    <dl_definition_rel_match action="DELETE">
+        <dl_definition display_value="Insector data">40ab5ed2076be01072d9f7108c1ed01f</dl_definition>
+        <exact_match>false</exact_match>
+        <matcher_table>x_408970_safety_ap_x_408970_inspector_look_up</matcher_table>
+        <matcher_table_field>inspector_name</matcher_table_field>
+        <source_table>x_408970_safety_ap_x_issue</source_table>
+        <source_table_field>u_inspector</source_table_field>
+        <sys_class_name>dl_definition_rel_match</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-18 14:19:43</sys_created_on>
+        <sys_id>e08e1256076be01072d9f7108c1ed042</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>u_inspector</sys_name>
+        <sys_package display_value="Safety App" source="x_408970_safety_ap">8c234d9607afa01072d9f7108c1ed06d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety App">8c234d9607afa01072d9f7108c1ed06d</sys_scope>
+        <sys_update_name>dl_definition_rel_match_e08e1256076be01072d9f7108c1ed042</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-18 14:28:07</sys_updated_on>
+    </dl_definition_rel_match>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Safety App">8c234d9607afa01072d9f7108c1ed06d</application>
+        <file_path/>
+        <instance_id>12634d05db6c734052cec59705961974</instance_id>
+        <instance_name>dev77991</instance_name>
+        <name>dl_definition_rel_match_e08e1256076be01072d9f7108c1ed042</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition_rel_match"><dl_definition_rel_match action="INSERT_OR_UPDATE"><dl_definition display_value="Insector data">40ab5ed2076be01072d9f7108c1ed01f</dl_definition><exact_match>false</exact_match><matcher_table>x_408970_safety_ap_x_408970_inspector_look_up</matcher_table><matcher_table_field>inspector_name</matcher_table_field><source_table>x_408970_safety_ap_x_issue</source_table><source_table_field>u_inspector</source_table_field><sys_class_name>dl_definition_rel_match</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2021-04-18 14:19:43</sys_created_on><sys_id>e08e1256076be01072d9f7108c1ed042</sys_id><sys_mod_count>2</sys_mod_count><sys_name>u_inspector</sys_name><sys_package display_value="Safety App" source="x_408970_safety_ap">8c234d9607afa01072d9f7108c1ed06d</sys_package><sys_policy/><sys_scope display_value="Safety App">8c234d9607afa01072d9f7108c1ed06d</sys_scope><sys_update_name>dl_definition_rel_match_e08e1256076be01072d9f7108c1ed042</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2021-04-18 14:28:07</sys_updated_on></dl_definition_rel_match></record_update>]]></payload>
+        <payload_hash>-1744136727</payload_hash>
+        <record_name>u_inspector</record_name>
+        <reverted_from/>
+        <source>84234d9607afa01072d9f7108c1ed070</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-18 14:28:07</sys_created_on>
+        <sys_id>e0806eda076be01072d9f7108c1ed0f5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>178e561aff20000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-18 14:28:07</sys_updated_on>
+        <type>Matcher Field Definitions</type>
+        <update_guid>6c806eda9f6be010875b976e409175f4</update_guid>
+        <update_guid_history>6c806eda9f6be010875b976e409175f4:-1744136727,27506eda206be010f69036119ec082f1:1905230924,519e1ad6326be010159c27626bd14379:-1744136727</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="u_inspector">7b80ea9a076be01072d9f7108c1ed071</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-18 14:28:20</sys_created_on>
+        <sys_db_object display_value="" name="dl_definition_rel_match">dl_definition_rel_match</sys_db_object>
+        <sys_id>193ba42539db44369adfe1b19b8bede4</sys_id>
+        <sys_metadata>e08e1256076be01072d9f7108c1ed042</sys_metadata>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_inspector</sys_name>
+        <sys_package display_value="Safety App" source="x_408970_safety_ap">8c234d9607afa01072d9f7108c1ed06d</sys_package>
+        <sys_parent display_value="Insector data">40ab5ed2076be01072d9f7108c1ed01f</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Safety App">8c234d9607afa01072d9f7108c1ed06d</sys_scope>
+        <sys_scope_delete display_value="">465ea120d8174f68a8c2b1fcfe607210</sys_scope_delete>
+        <sys_update_name>dl_definition_rel_match_e08e1256076be01072d9f7108c1ed042</sys_update_name>
+        <sys_update_version display_value="dl_definition_rel_match_e08e1256076be01072d9f7108c1ed042">e0806eda076be01072d9f7108c1ed0f5</sys_update_version>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-18 14:28:20</sys_updated_on>
+    </sys_metadata_delete>
+</record_update>

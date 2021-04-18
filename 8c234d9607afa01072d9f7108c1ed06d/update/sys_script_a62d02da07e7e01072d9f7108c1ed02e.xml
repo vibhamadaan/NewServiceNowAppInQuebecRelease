@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_script">
+    <sys_script action="INSERT_OR_UPDATE">
+        <abort_action>true</abort_action>
+        <access>package_private</access>
+        <action_delete>false</action_delete>
+        <action_insert>true</action_insert>
+        <action_query>false</action_query>
+        <action_update>true</action_update>
+        <active>true</active>
+        <add_message>true</add_message>
+        <advanced>false</advanced>
+        <change_fields>false</change_fields>
+        <client_callable>false</client_callable>
+        <collection>x_408970_safety_ap_x_issue</collection>
+        <condition/>
+        <description/>
+        <execute_function>false</execute_function>
+        <filter_condition table="x_408970_safety_ap_x_issue">due_dateVALCHANGES^due_dateRELATIVELT@minute@ago@1^EQ<item endquery="false" field="due_date" goto="false" newquery="false" operator="VALCHANGES" or="false" value=""/>
+            <item endquery="false" field="due_date" goto="false" newquery="false" operator="RELATIVE" or="false" value="LT@minute@ago@1"/>
+            <item endquery="true" field="" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </filter_condition>
+        <is_rest>false</is_rest>
+        <message><![CDATA[<p>Due date can&#39;t be in the past. Please try again.</p>]]></message>
+        <name>Check Due date</name>
+        <order>100</order>
+        <priority>100</priority>
+        <rest_method/>
+        <rest_method_text/>
+        <rest_service/>
+        <rest_service_text/>
+        <rest_variables/>
+        <role_conditions/>
+        <script><![CDATA[(function executeRule(current, previous /*null when async*/) {
+
+	// Add your code here
+
+})(current, previous);]]></script>
+        <sys_class_name>sys_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-18 13:08:33</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>a62d02da07e7e01072d9f7108c1ed02e</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Check Due date</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Safety App" source="x_408970_safety_ap">8c234d9607afa01072d9f7108c1ed06d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety App">8c234d9607afa01072d9f7108c1ed06d</sys_scope>
+        <sys_update_name>sys_script_a62d02da07e7e01072d9f7108c1ed02e</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-18 13:08:33</sys_updated_on>
+        <template/>
+        <when>before</when>
+    </sys_script>
+    <sys_translated_text action="delete_multiple" query="documentkey=a62d02da07e7e01072d9f7108c1ed02e"/>
+</record_update>

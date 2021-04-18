@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="question_choice">
+    <question_choice action="INSERT_OR_UPDATE">
+        <inactive>false</inactive>
+        <order>2</order>
+        <published_ref/>
+        <question display_value="Category">a2b16dde07a3e01072d9f7108c1ed079</question>
+        <sys_class_name>question_choice</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-18 09:53:50</sys_created_on>
+        <sys_id>e6b16dde07a3e01072d9f7108c1ed081</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Medium</sys_name>
+        <sys_package display_value="Safety App" source="x_408970_safety_ap">8c234d9607afa01072d9f7108c1ed06d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety App">8c234d9607afa01072d9f7108c1ed06d</sys_scope>
+        <sys_update_name>question_choice_e6b16dde07a3e01072d9f7108c1ed081</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-18 09:53:50</sys_updated_on>
+        <text>Medium</text>
+        <value>Medium</value>
+    </question_choice>
+    <fx_price action="delete_multiple" query="id=e6b16dde07a3e01072d9f7108c1ed081"/>
+</record_update>

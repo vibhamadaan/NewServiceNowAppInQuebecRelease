@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="dl_definition_rel_set">
+    <dl_definition_rel_set action="INSERT_OR_UPDATE">
+        <always_replace>true</always_replace>
+        <dl_definition display_value="Insector data">40ab5ed2076be01072d9f7108c1ed01f</dl_definition>
+        <matcher_table>x_408970_safety_ap_x_408970_inspector_look_up</matcher_table>
+        <matcher_table_field>inspector_name</matcher_table_field>
+        <source_table>x_408970_safety_ap_x_issue</source_table>
+        <source_table_field>u_inspector</source_table_field>
+        <sys_class_name>dl_definition_rel_set</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2021-04-18 14:28:37</sys_created_on>
+        <sys_id>8990261e076be01072d9f7108c1ed0a5</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>u_inspector</sys_name>
+        <sys_package display_value="Safety App" source="x_408970_safety_ap">8c234d9607afa01072d9f7108c1ed06d</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Safety App">8c234d9607afa01072d9f7108c1ed06d</sys_scope>
+        <sys_update_name>dl_definition_rel_set_8990261e076be01072d9f7108c1ed0a5</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2021-04-18 14:28:37</sys_updated_on>
+    </dl_definition_rel_set>
+</record_update>

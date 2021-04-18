@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element attributes="update_synch=true" extends="dl_matcher" label="Inspector Look up table" max_length="40" name="x_408970_safety_ap_x_408970_inspector_look_up" type="collection">
+        <element choice="1" choice_field="u_category" choice_table="x_408970_safety_ap_x_issue" label="Category" max_length="40" name="category" type="choice">
+            <choice>
+                <element inactive_on_update="false" label="-- New choice --" value="-- New choice --"/>
+            </choice>
+        </element>
+        <element label="Inspector Name" max_length="32" name="inspector_name" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="inspector_name"/>
+        </index>
+    </element>
+</database>
