@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="" label="Inspector" language="en" table="x_408970_safety_ap_inspector">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element/>
+            <help/>
+            <hint/>
+            <label>Inspector</label>
+            <language>en</language>
+            <name>x_408970_safety_ap_inspector</name>
+            <plural>Inspectors</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2021-04-18 08:12:44</sys_created_on>
+            <sys_id>e19a49d60723e01072d9f7108c1ed081</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Inspector</sys_name>
+            <sys_package display_value="Safety App" source="x_408970_safety_ap">8c234d9607afa01072d9f7108c1ed06d</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Safety App">8c234d9607afa01072d9f7108c1ed06d</sys_scope>
+            <sys_update_name>sys_documentation_x_408970_safety_ap_inspector__en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2021-04-18 08:12:44</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>
